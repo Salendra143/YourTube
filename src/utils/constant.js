@@ -17,10 +17,9 @@ export const chatMessageApi = `https://www.youtube.com/youtubei/v1/live_chat/get
  export const CATEGORIES_DATA_API = `https://www.googleapis.com/youtube/v3/videoCategories?key=${API_KEY}&regionCode=IN`;
 
 
-  export const YOUTUBE_SUGGESTION = 'http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=';
+  export const YOUTUBE_SUGGESTION = 'https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=';
  
- //* Random user api
- export const RANDOMUSER = "https://randomuser.me/api/";
+
  
  //* Search video list api
  export const SEARCH_VIDEO_LIST_API = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&type=video&key=${API_KEY}&q=`;
